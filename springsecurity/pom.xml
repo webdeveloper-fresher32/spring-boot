@@ -43,6 +43,11 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- Thymeleaf Template Engine -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<!-- Testing (Spring Boot 4.x artifact names) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

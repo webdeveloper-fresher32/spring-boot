@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-8">
+    <div class="max-w-2xl mx-auto bg-white p-6 rounded-xl shadow-md">
+        <h1 class="text-3xl font-bold text-gray-800">🎉 Logged In Successfully!</h1>
+        <p class="mt-2 text-gray-600">You are authenticated via Spring Security.</p>
+
+        <div class="mt-6 flex space-x-4">
+            <a href="/api/users/admin" class="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg">
+                Test Admin Endpoint
+            </a>
+            <a href="/login?logout" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg">
+                Logout
+            </a>
+        </div>
+    </div>
+</body>
+</html>
